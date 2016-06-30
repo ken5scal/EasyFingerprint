@@ -1,0 +1,26 @@
+machine:
+    java:
+        version: oraclejdk8
+    environment:
+        ANDROID_HOME: /usr/local/android-sdk-linux
+        JAVA_OPTS: "-Xms512m -Xmx1024m"
+        GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError"'
+
+dependencies:
+    pre:
+        - echo y | android update sdk --no-ui --all --filter "platform-tools,android-24,build-tools-24.0.0,extra-android-m2repository,extra-android-support"
+    #cache_directories:
+    #    - ~/.android
+    #override:
+    #    - ./gradlew dependencies
+
+test:
+    override:
+        - ./gradlew clean test
+
+deployment:
+    production:
+        branch: master
+        commands:
+            - echo "hoge"
+
