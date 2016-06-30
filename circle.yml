@@ -9,10 +9,10 @@ machine:
 dependencies:
     pre:
         - echo y | android update sdk --no-ui --all --filter "platform-tools,android-23,build-tools-23.0.3"
-    cache_directories:
-        - ~/.android
-    override:
-        - ./gradlew dependencies
+    #cache_directories:
+    #    - ~/.android
+    #override:
+    #    - ./gradlew dependencies
 
 test:
     override:
