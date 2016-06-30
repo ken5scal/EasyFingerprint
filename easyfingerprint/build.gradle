@@ -59,7 +59,7 @@ publish {
     userOrg = 'ken5scal'
     groupId = 'com.github.ken5scal'
     artifactId = 'easyfingerprint'
-    publishVersion = "1.0.0"
+    publishVersion = "1.0.1"
     desc = 'Utility that lets developer easily implement fingerprint related functionalities'
     website = 'https://github.com/ken5scal/easyfingerprint'
     licences = ['Apache-2.0']
