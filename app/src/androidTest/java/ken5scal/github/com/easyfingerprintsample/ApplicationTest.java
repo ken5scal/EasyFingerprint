@@ -1,4 +1,4 @@
-package ken5scal.github.com.easyfingerprint;
+package ken5scal.github.com.easyfingerprintsample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
