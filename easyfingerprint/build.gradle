@@ -21,12 +21,12 @@ apply plugin: 'com.novoda.bintray-release'
 
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -52,7 +52,7 @@ dependencies {
     androidTestCompile 'com.android.support.test:rules:0.5'
     testCompile "org.powermock:powermock-api-mockito:1.6.5"
     testCompile "org.powermock:powermock-module-junit4:1.6.5"
-    compile 'com.android.support:appcompat-v7:23.0.3'
+    compile 'com.android.support:appcompat-v7:24.0.0'
 }
 
 publish {
