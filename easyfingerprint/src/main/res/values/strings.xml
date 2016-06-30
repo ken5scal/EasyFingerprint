@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Easy Fingerprint</string>
-    <string name="failed_reading_fingerprint">"指紋を認識できませんでした\n再試行してください"</string>
+    <string name="failed_reading_fingerprint">"Could not read fingerprint.\nPlease retry."</string>
 </resources>
