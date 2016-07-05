@@ -1,6 +1,4 @@
- [ ![Download](https://api.bintray.com/packages/ken5scal/maven/easyfingerprint/images/download.svg) ](https://bintray.com/ken5scal/maven/easyfingerprint/_latestVersion)
-
-[![CircleCI](https://circleci.com/gh/ken5scal/EasyFingerprint/tree/master.svg?style=svg)](https://circleci.com/gh/ken5scal/EasyFingerprint/tree/master)
+[![CircleCI](https://circleci.com/gh/ken5scal/EasyFingerprint/tree/master.svg?style=svg)](https://circleci.com/gh/ken5scal/EasyFingerprint/tree/master)[ ![Download](https://api.bintray.com/packages/ken5scal/maven/easyfingerprint/images/download.svg) ](https://bintray.com/ken5scal/maven/easyfingerprint/_latestVersion)
 
 # EasyFingerprint
 Utility that lets developer easily implement fingerprint related functionalities
